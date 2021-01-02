@@ -6,6 +6,10 @@ p {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --Dark-Violet: hsl(256, 26%, 20%);
     --Grayish-Blue: hsl(216, 30%, 68%);
@@ -32,6 +36,10 @@ body {
     padding: 5%;
     justify-content: space-between;
     align-items: center;
+}
+
+.row-1 > img {
+    width: 5%;
 }
 
 .links-1 {
@@ -104,7 +112,15 @@ body {
 }
 
 .row-3-button {
+    text-align: center;
+    padding: 15px 25px;
+    margin: 50px auto 0px auto;
+}
+
+.row-3-button a{
     border: 3px solid var(--Very-Light-Gray);
+    color: var(--Very-Light-Gray);
+    text-decoration: none;
     text-align: center;
     width: fit-content;
     padding: 15px 25px;
@@ -115,7 +131,7 @@ body {
     letter-spacing: 2px;
 }
 
-.row-3-button:hover {
+.row-3-button a:hover {
     background-color: var(--Very-Light-Gray);
     color: var(--Very-Dark-Violet);
     transition: 0.3s;
@@ -146,29 +162,123 @@ body {
     align-items: center;
 }
 
-.row-5 {
-    background-image: url(./images/icon-snappy-process.svg);
+.row-5-1 {
+    background-image: url(./images/javascript_round.png);
     background-repeat: no-repeat;
     background-position: top center;
     width: 62%;
     margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
 }
 
-.row-6 {
-    background-image: url(./images/icon-affordable-prices.svg);
+.row-6-1 {
+    background-image: url(./images/h.svg);
+    background-size: 35%;
     background-repeat: no-repeat;
     background-position: top center;
     width: 62%;
     margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
 }
 
-.row-7 {
-    background-image: url(./images/icon-people-first.svg);
+.row-7-1 {
+    background-image: url(./images/python.png);
+    background-size: 25%;
     background-repeat: no-repeat;
     background-position: top center;
     width: 62%;
     margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
 }
+
+.row-5-2 {
+    background-image: url(./images/m.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 62%;
+    margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+}
+
+.row-6-2 {
+    background-image: url(./images/express.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 62%;
+    margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+}
+
+.row-7-2 {
+    background-image: url(./images/react.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 62%;
+    margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+}
+
+.row-5-3 {
+    background-image: url(./images/node.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 62%;
+    margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+}
+
+.row-6-3 {
+    background-image: url(./images/cpp.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 62%;
+    margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+}
+
+.row-7-3 {
+    background-image: url(./images/c.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 62%;
+    margin: 40px 0px;
+    background-origin: content-box;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 6px;
+}
+
+
 
 .text-1 {
     text-align: center;
@@ -177,12 +287,6 @@ body {
     font-family: 'DM Serif Display', serif;
     margin-top: 120px;
     margin-bottom: 10px;
-}
-
-.text-2 {
-    color: var(--Dark-Grayish-Violet);
-    text-align: center;
-    line-height: 2;
 }
 
 .row-8 {
@@ -204,7 +308,15 @@ body {
 }
 
 .row-8-button {
+    text-align: center;
+    padding: 15px 25px;
+    margin: 50px auto 0px auto;
+}
+
+.row-8-button a{
     border: 3px solid var(--Very-Light-Gray);
+    color: var(--Very-Light-Gray);
+    text-decoration: none;
     text-align: center;
     width: fit-content;
     padding: 15px 25px;
@@ -215,7 +327,7 @@ body {
     letter-spacing: 2px;
 }
 
-.row-8-button:hover {
+.row-8-button a:hover {
     background-color: var(--Very-Light-Gray);
     color: var(--Very-Dark-Violet);
     transition: 0.3s;
@@ -224,6 +336,7 @@ body {
 .row-9 {
     background-color: var(--Very-Light-Gray);
     width: 100%;
+    height: 300px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
@@ -231,7 +344,12 @@ body {
     background-image: url(./images/bg-pattern-footer-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 80px 0px;
+    padding: 110px 0px;
+}
+
+.row-9-1 > img {
+    width: 5%;
+    cursor: pointer;
 }
 
 .icons {
@@ -239,38 +357,17 @@ body {
     cursor: pointer;
 }
 
-.icons img:nth-last-child(n+2) {
+.icons a {
+    text-decoration: none;
+}
+
+.icons a:nth-last-child(n+2) {
     padding-right: 20px;
 }
 
 .icons img:hover {
     filter: brightness(0);
     transition: 0.3s;
-}
-
-.row-9-line { 
-    height: 2px;
-    background-color: var(--Dark-Grayish-Violet);
-    width: 90%;
-    margin: 0 auto;
-} 
-
-.text-3 {
-    color: var(--Dark-Grayish-Violet);
-    padding: 40px 0px;
-}
-
-.text-4 p {
-    color: var(--Very-Dark-Violet);
-    cursor: pointer;
-}
-
-.text-4 p:nth-last-child(n+2) {
-    padding-bottom: 20px;
-}
-
-.text-4 p:hover {
-    text-decoration: underline var(--Very-Dark-Violet);
 }
 
 .attribution { 
@@ -336,7 +433,7 @@ body {
         padding-top: 72px;
         padding-left: 10%;
         padding-right: 55%;
-        background: url(./images/bg-pattern-intro-left-desktop.svg) no-repeat bottom left, url(./images/bg-pattern-intro-right-desktop.svg) no-repeat top right, url(./images/image-intro-desktop.jpg) no-repeat 85% center,linear-gradient(to bottom, var(--Dark-Violet) 73% , white 27%);
+        background: url(./images/bg-pattern-intro-left-desktop.svg) no-repeat bottom left, url(./images/bg-pattern-intro-right-desktop.svg) no-repeat top right, url(./images/lakshman-desktop.jpg) no-repeat 85% center,linear-gradient(to bottom, var(--Dark-Violet) 73% , white 27%);
     }
 
     .row-3-line {
@@ -350,7 +447,7 @@ body {
     .humanizing {
         letter-spacing: 1px;
         text-align: left;
-        font-size: 3.5em;
+        font-size: 3em;
         line-height: 1;
     }
 
@@ -361,8 +458,9 @@ body {
     }
 
     .row-3-button {
+        text-align: left;
         font-size: 1.1em;
-        margin: 40px 0px 0px 0px;
+        padding: 0px;
     }
 
     .row-4 {
@@ -378,32 +476,30 @@ body {
 
     .row-4 p {
         text-align: left;
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .row-5-6-7 {
         flex-flow: row wrap;
         width: 80%;
-        justify-self: center;
         align-items: baseline;
+        justify-self: center;
         justify-content: space-between;
     }
 
-    .row-5, .row-6, .row-7 {
+    .row-7-3 {
+        background-size: 20%;
+    }
+
+    .row-5-1, .row-6-1, .row-7-1, .row-5-2, .row-6-2, .row-7-2, .row-5-3, .row-6-3, .row-7-3 {
         margin: 60px 0px 0px 0px;
         width: 30%;
-        background-position: top left;
+        background-position: top center;
     }
 
     .text-1 {
-        text-align: left;
+        text-align: center;
         font-size: 2.2em;
-    }
-
-    .text-2 {
-        text-align: left;
-        font-size: 1.2em;
-        margin-top: 30px;
     }
 
     .row-8 {
@@ -430,7 +526,7 @@ body {
     .row-9 {
         background-image: url(./images/bg-pattern-footer-desktop.svg);
         background-size: initial;
-        padding: 50px 140px;
+        padding: 140px 140px;
     }
 
     .icons {
